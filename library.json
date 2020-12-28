@@ -1,0 +1,26 @@
+{
+    "name": "TimeChangeRules",
+    "version": "1.0.0",
+    "description": "Time change rules for time zones in https://github.com/JChristensen/Timezone",
+    "keywords": "time, time zone, time change rule",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/viktak/timechangerules.git"
+    },
+    "authors":
+    [
+      {
+        "name": "Viktor Takacs",
+        "email": "timechangerule@viktak.com",
+        "url": "http://diy.viktak.com"
+      }
+    ],
+    "license": "GNU v3.0",
+    "homepage": "http://diy.viktak.com",
+    "dependencies": {
+      "JChristensen/Timezone": ">=1.2.4"
+    },
+    "frameworks": "*",
+    "platforms": "*"
+  }
