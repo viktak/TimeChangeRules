@@ -60,18 +60,18 @@ namespace timechangerules
     static Timezone Azores(AZOST, AZOT);
 
     //  Western Europe
-    static TimeChangeRule WEST = {"WEST", Fourth, Sun, Mar, 2, 60};
-    static TimeChangeRule WET = {"WET", Fourth, Sun, Oct, 2, 0};
+    static TimeChangeRule WEST = {"WEST", Last, Sun, Mar, 2, 60};
+    static TimeChangeRule WET = {"WET", Last, Sun, Oct, 2, 0};
     static Timezone WesternEurope(WEST, WET);
 
     //  Central Europe
-    static TimeChangeRule CEST = {"CEST", Fourth, Sun, Mar, 2, 120};
-    static TimeChangeRule CET = {"CET", Fourth, Sun, Oct, 2, 60};
+    static TimeChangeRule CEST = {"CEST", Last, Sun, Mar, 2, 120};
+    static TimeChangeRule CET = {"CET", Last, Sun, Oct, 2, 60};
     static Timezone CentralEurope(CEST, CET);
 
     //  Eastern Europe
-    static TimeChangeRule EEST = {"EEST", Fourth, Sun, Mar, 2, 180};
-    static TimeChangeRule EET = {"EET", Fourth, Sun, Oct, 2, 120};
+    static TimeChangeRule EEST = {"EEST", Last, Sun, Mar, 2, 180};
+    static TimeChangeRule EET = {"EET", Last, Sun, Oct, 2, 120};
     static Timezone EasternEurope(EEST, EET);
 
     //  Further-Eastern Europe
